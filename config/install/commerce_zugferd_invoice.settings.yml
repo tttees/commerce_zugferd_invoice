@@ -1,0 +1,3 @@
+storage_path: '/private/rechnungen'
+default_email_subject: 'Ihre Rechnung'
+mustang_jar_path: '/opt/mustang/mustangproject.jar'
