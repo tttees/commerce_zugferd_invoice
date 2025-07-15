@@ -1,0 +1,12 @@
+{
+  "name": "matthias/commerce-zugferd-invoice",
+  "description": "Erstellt PDF/A-3b ZUGFeRD-Rechnungen für Drupal Commerce",
+  "type": "drupal-module",
+  "license": "GPL-2.0+",
+  "require": {
+    "mpdf/mpdf": "^8.0"
+  },
+  "extra": {
+    "installer-name": "commerce_zugferd_invoice"
+  }
+}
