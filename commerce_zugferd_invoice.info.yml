@@ -1,0 +1,7 @@
+name: 'Commerce ZUGFeRD Invoice'
+type: module
+description: 'Erzeugt ZUGFeRD-konforme PDF/A-3b-Rechnungen für Drupal Commerce'
+core_version_requirement: ^10
+package: 'Commerce'
+dependencies:
+  - commerce
