@@ -1,0 +1,7 @@
+commerce_zugferd_invoice.download:
+  path: '/admin/commerce/orders/{order}/zugferd-download'
+  defaults:
+    _controller: '\Drupal\commerce_zugferd_invoice\Controller\InvoiceController::download'
+    _title: 'ZUGFeRD-Rechnung herunterladen'
+  requirements:
+    _permission: 'administer commerce_order'
