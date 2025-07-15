@@ -1,0 +1,7 @@
+<?php
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+function commerce_zugferd_invoice_help($route_name, RouteMatchInterface $route_match) {
+  return t('Dieses Modul erstellt PDF/A-3b Rechnungen mit ZUGFeRD-Daten für Drupal Commerce.');
+}
